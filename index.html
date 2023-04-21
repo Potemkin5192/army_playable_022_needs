@@ -1940,6 +1940,7 @@ p.nominalBounds = new cjs.Rectangle(-512,-512,2049.3,1024);
 		});
 		card1.addEventListener('click', function () {
 			if (card1.clickable) {
+				musicBG.play();
 				btnSFX.play();
 				scene.gotoAndPlay(1);
 				hideUi();
